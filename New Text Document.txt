@@ -1,0 +1,23 @@
+void main() {
+  var student_name = "Ali";
+  int level = 01; 
+ String heading = "*Mark_Sheet*";
+double english = 95;
+num math = 95;
+  int urdu = 95;
+var result = english+math+urdu;
+  var total_marks = 300;
+double percentage = result/300*100;
+print ('Student Name: ${student_name}\nClass: ${level}\n${heading}\nEnglish: ${english}\nMath: ${math}\nUrdu: ${urdu}\nObtained Marks = ${result}\nTotal = ${total_marks}\nPercentage% = ${percentage}');
+  
+  if (percentage>=95){;
+    print ("Grade A");
+  }else  if (percentage>=80){
+    print ("Grade B");
+  }else if (percentage>=75){
+    print ("Grade C");
+}else if (percentage<=75){
+    print ("Grade FAIL");
+  
+  }
+}
